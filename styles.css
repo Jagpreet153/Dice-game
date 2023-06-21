@@ -16,7 +16,7 @@
 
 
   h1 {
-    margin: 30px;
+    margin: 30px 0px ;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
     font-size: 8rem;
@@ -24,25 +24,31 @@
     text-align: center;
   }
 
- .player1{
- text-align: center;
+.player1{
+  position: relative;
+  left: 6%;
+}
+
+.player2{
+  position: relative;
+  left: 15%;
+}
+ .row2{
+  position: absolute;
+  right: 10%;
+  top: 27%;
  }
 
- .player2{
-  text-align: center;
- }
   
   p {
     font-size: 2rem;
     color: #4ECCA3;
     font-family: 'Indie Flower', cursive;
   }
-  
-  img {
-    width: 20%;
-    
-    
-  }
+
+
+
+
   
   .footer {
     margin-top: 5%;
@@ -58,7 +64,4 @@
     font-size: 1.5rem;
   }
 
-  #image{
-    text-align: center;
-  }
 
